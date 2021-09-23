@@ -1,0 +1,49 @@
+
+body{
+  background:yellow;
+  background: radial-gradient(circle, rgb(80, 77, 78) 0%, rgba(148,187,233,1) 100%);
+}
+ul{
+  background-color: transparent;
+  box-shadow: rgba(221, 221, 221, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 15px;
+}
+ul:hover{
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0.123);
+}
+ul li{
+  padding: 7px;
+}
+h1{
+  color: rgb(14, 13, 13);
+}
+nav{
+  display: inline-block;
+}
+input[type=button]{
+  font-size:small;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.295);
+  border-radius: 8px;
+}
+input[type=button]:hover{
+  color: black;
+  background-color: rgba(169, 82, 219, 0.336);
+  padding: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width:1020px) {
+ul{
+  width:40rem;
+}
+input[type=button]{
+  font-size:large;
+  padding: 12px;
+}
+}
